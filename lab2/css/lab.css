@@ -7,9 +7,10 @@
     border: dotted 5px #d94444;
     background-color: #edc8c8;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    h2 
+    h2 {
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
+}
   h1 {
       color:rgb(184, 66, 66);
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,6 +18,11 @@
       margin-bottom: 10px;
       text-align: center;
   }
+
+#content {
+  background-color: rgb(138, 186, 160)
+}
+
   p {
     text-indent: 20px;
     font-size: 20px;

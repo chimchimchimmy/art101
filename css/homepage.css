@@ -1,6 +1,14 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+#content {
+  background-image: url(https://i.pinimg.com/736x/42/39/90/4239904d6ad07af1e3ec6430a1b013c0.jpg);
+  background-size: cover;
+}
+
+#links {
+  color:rgb(192, 59, 59)
+}
+
+.minor-section {
+  margin-right: 500px;
 }
