@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #557956;
+    background-color: #b2d4b5;
   }
+
+  body {
+    background-color: #588694;
+  }
+
+  h1,h2,h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(67, 93, 42)
+  }
+
+
