@@ -7,3 +7,7 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  body {
+    background-color: rgb(181, 154, 200);
+  }

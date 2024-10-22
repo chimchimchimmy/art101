@@ -1,8 +1,23 @@
 /* this css file will only style the homepage of our site */
+body {
+  background-color: #195d72;
+}
 
 #content {
   background-image: url(https://i.pinimg.com/736x/42/39/90/4239904d6ad07af1e3ec6430a1b013c0.jpg);
   background-size: cover;
+}
+
+h1,h2,h3 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(192, 59, 59)
+}
+
+h1 {
+  font-family:"gamga flower";
+  font-size: 300%;
+  color: rgb(192, 59, 59);
+  margin: 20px;
 }
 
 #links {
