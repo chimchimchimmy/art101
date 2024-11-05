@@ -5,16 +5,17 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #799879;
+    background-color: #79aa79;
   }
 
   body {
-    background-color: rgb(234, 201, 118);
+    background-color: rgb(91, 145, 93);
   }
 
   .special {
     background-color: lavender;
-    border: dotted 50px red;
+    border: dotted 2px red;
     color: pink;
     font-weight: bold;
 }
+
