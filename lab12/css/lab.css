@@ -1,0 +1,15 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #f1c644;
+  }
+
+  body {
+    background-color: rgb(53, 73, 48);
+  }
+
+  h1,h2,h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0)
+  }
