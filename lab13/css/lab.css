@@ -1,0 +1,40 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #64978f;
+  }
+
+  body {
+    background-color: rgb(93, 106, 173);
+  }
+
+  h1,h2,h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(211, 81, 159)
+  }  
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    background-color: #7bae9e;
+    border: 1px solid #5a7571;
+    border-radius: 10px;
+}
+
+#output div {
+    flex: 1 1 calc(20% - 15px);
+    min-width: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #42796d;
+    text-align: left;
+    background-color: #6ba397;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: bold;
+}
