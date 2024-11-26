@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 15 - AJAX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/lab.js" defer></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 15 - AJAX</h1>
+                
+            <div class="minor-section" id="challenge">
+                <h2>Challenge</h2>
+                <p>The challenge of this lab was to integrate an external API and display its output on the page.</p>
+            </div>
+
+            <div class="minor-section" id="problems">
+                <h2>Problems</h2>
+                <p>Initially, I had an issue connecting to the API. The console showed a "CORS" error, which meant the API was not allowing my request. I reviewed the API documentation and ensured I was using the correct endpoint, fixing the issue.</p>
+            </div>
+
+            <div class="minor-section" id="results">
+                <h2>Results</h2>
+                <p>My API call works correctly now!</p>
+                <div id="output">
+                    <p>Click the button to get a random Chuck Norris joke:</p>
+                    <button id="fetchJoke">Get a Joke</button>
+                    <div id="jokeOutput" class="joke-result"></div>
+                </div>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a class="homelink" href="../index.html">&lt;&lt; Back home</a>
+        </nav>
+    </main>
+</body>
+</html>
