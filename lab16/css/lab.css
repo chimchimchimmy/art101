@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#output h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#output p {
+    text-align: center;
+    font-style: italic;
+}
